@@ -1,0 +1,912 @@
+
+====================================================================================================
+Timestamp      : 2025-10-16 15:37:57 UTC
+Tweet ID       : 203
+Author Handle  : @zhao_dashuai
+Tweet Date     : 2025-10-16
+Tweet Text     : Indonesia is reported buying 42 J-10CEs from China.
+
+The superb performance of the J-10CEs at the hands of Pakistan air force against India in the May 7th war, was brilliant free advertisement.
+----------------------------------------------------------------------------------------------------
+Predicted Category : INTERNATIONAL_RELATIONS (ID: 2)
+Factuality         : Factual (97.92%)
+Verdict            : Unverified
+Confidence Score   : 48.0
+----------------------------------------------------------------------------------------------------
+Top Evidence Sources:
+  1. https://en.wikipedia.org/wiki/Chengdu_J-10
+     Domain: en.wikipedia.org ✗ (Not in DB)
+     Title: Chengdu J-10 - Wikipedia...
+     Evidence: but there are a number of other pieces of other aircraft or technologies that are part of the configuration that they have acquired from different sou...
+     NLI: SUPPORTS (confidence: 0.6985270380973816)
+  2. https://meta-defense.fr/en/2025/05/27/12-gusts-42-days-10ce-Indonesia-coming-soon/
+     Domain: meta-defense.fr ✗ (Not in DB)
+     Title: Rafale and J-10CE, the two big winners of Indonesian arbitrations?...
+     Evidence: Why might Indonesia choose the J-10CE to modernize its air force?...
+     NLI: SUPPORTS (confidence: 0.6243888735771179)
+  3. https://www.chinausfocus.com/peace-security/indo-pak-conflict-showcases-battle-tested-edge-of-chinese-arms
+     Domain: chinausfocus.com ✗ (Not in DB)
+     Title: Indo-Pak Conflict Showcases Battle-Tested Edge of Chinese Arms ......
+     Evidence: In 2020, Pakistan reportedly ordered 36 J-10CEs, the export version of the J-10C, together with 250 PL-15 [export version] missiles from China....
+     NLI: SUPPORTS (confidence: 0.5414929986000061)
+====================================================================================================
+
+
+====================================================================================================
+Timestamp      : 2025-10-16 15:41:01 UTC
+Tweet ID       : 204
+Author Handle  : @Currentreport1
+Tweet Date     : 2025-10-16
+Tweet Text     : BREAKING:
+
+Indonesia has agreed to purchase 42 J-10 fighter jets from China in a deal worth over $9 billion.
+
+This is one of China's largest and most historic arms exports ever.
+----------------------------------------------------------------------------------------------------
+Predicted Category : INTERNATIONAL_RELATIONS (ID: 2)
+Factuality         : Factual (99.97%)
+Verdict            : False
+Confidence Score   : 58.9
+----------------------------------------------------------------------------------------------------
+Top Evidence Sources:
+  1. https://www.bbc.com/news/articles/cwyq0ln6z6lo
+     Domain: bbc.com ✓ (In DB)
+     Title: US reaches tariff deal with Indonesia...
+     Evidence: Indonesia ranks as one of America's top 25 trade partners, sending about $28bn to the US last year, including clothing, footwear and palm oil....
+     NLI: CONTRADICTS (confidence: 0.6192226409912109)
+  2. https://breakingdefense.com/2025/06/indonesia-south-korea-sign-revised-kf-21-development-agreement/
+     Domain: breakingdefense.com ✗ (Not in DB)
+     Title: Indonesia, South Korea sign revised KF-21 development agreement ......
+     Evidence: Indonesia had previously committed to footing 20 percent, or approximately 1.7 trillion won, of the KF-21’s development costs when it signed onto the ...
+     NLI: CONTRADICTS (confidence: 0.594211995601654)
+  3. https://www.nytimes.com/2025/07/16/business/economy/indonesia-trump-tariff-trade-agreement.html
+     Domain: nytimes.com ✓ (In DB)
+     Title: Trump Announces 'Great Deal' on Trade With Indonesia - The New ......
+     Evidence: and Indonesian officials have been engaged in trade talks for several months....
+     NLI: CONTRADICTS (confidence: 0.7037733793258667)
+====================================================================================================
+
+
+====================================================================================================
+Timestamp      : 2025-10-16 15:44:04 UTC
+Tweet ID       : 205
+Author Handle  : @BBCUrdu
+Tweet Date     : 2025-10-13
+Tweet Text     : چین کی وزارتِ خارجہ کے ترجمان کا کہنا ہے کہ ’پاکستان (کے حکام) نے یقین دہانی کروائی ہے کہ امریکہ کے ساتھ کاروبار کبھی بھی چینی مفادات یا چین کے ساتھ تعاون کو نقصان نہیں پہنچائے گا۔‘
+----------------------------------------------------------------------------------------------------
+Predicted Category : INTERNATIONAL_RELATIONS (ID: 2)
+Factuality         : Factual (99.96%)
+Verdict            : True
+Confidence Score   : 72.0
+----------------------------------------------------------------------------------------------------
+Top Evidence Sources:
+  1. https://www.bbc.com/urdu/articles/c3w9699n0njo
+     Domain: bbc.com ✓ (In DB)
+     Title: پاکستان کے امریکہ کے ساتھ معدنیات کے شعبے میں تعاون اور افغان ......
+     Evidence: چینی وزارت خارجہ کا کہنا ہے کہ اسے پاکستانی حکام کی جانب سے یقین دہانی کرائی گئی ہے کہ امریکہ کے ساتھ اس کے کاروباری معاملات سے چینی مفادات کو نقصان ن...
+     NLI: SUPPORTS (confidence: 0.9033674597740173)
+  2. https://www.dw.com/ur/%DA%86%DB%8C%D9%86-%D8%A7%DB%8C%D8%B1%D8%A7%D9%86-%D8%A7%D9%88%D8%B1-%D8%B1%D9%88%D8%B3-%DA%A9%DB%92-%D9%85%D8%A7%D8%A8%DB%8C%D9%86-%D8%A8%DB%8C%D8%AC%D9%86%DA%AF-%D9%85%DB%8C%DA%BA-%D8%AC%D9%88%DB%81%D8%B1%DB%8C-%D9%85%D8%B0%D8%A7%DA%A9%D8%B1%D8%A7%D8%AA/a-71901876
+     Domain: dw.com ✓ (In DB)
+     Title: چین، ایران اور روس کے مابین بیجنگ میں جوہری مذاکرات – DW – 12.03 ......
+     Evidence: ایران: امریکی ہتھیاروں کی پہنچ سے باہر جوہری تنصیب کی تعمیر اسی دوران چین نے کہا ہے کہ وہ اپنے جائز حقوق کے تحفظ میں ایران کی حمایت کرتا ہے اور ایرانی...
+     NLI: CONTRADICTS (confidence: 0.7074800133705139)
+  3. https://www.dawnnews.tv/news/1267383
+     Domain: dawnnews.tv ✗ (Not in DB)
+     Title: عالمی منظر نامہ جو بھی ہو پاک چین دوستی ہمیشہ مضبوط اور مستحکم رہی ......
+     Evidence: اس موقع پر شہباز شریف نے چین کی پاکستان کے ساتھ مستقل حمایت پر اظہارِ تشکر کیا تھا، ان کا کہنا تھا کہ پاکستان، چین کے بنیادی مسائل پر غیر متزلزل حمایت...
+     NLI: SUPPORTS (confidence: 0.5279954671859741)
+====================================================================================================
+
+
+====================================================================================================
+Timestamp      : 2025-10-16 15:50:35 UTC
+Tweet ID       : 206
+Author Handle  : @MaryMargOlohan
+Tweet Date     : 2025-10-13
+Tweet Text     : Pakistan's Prime Minister Shehbaz Sharif calls for Donald Trump to receive the Nobel Peace Prize:  
+
+"Mr. President, I would like to salute you for your exemplary leadership. Visionary leadership." 
+
+"I think you are the man that this world needed most at this point in time. The world will always remember you as a man who did everything and went out of the way to stop seven, and today eight, wars."
+----------------------------------------------------------------------------------------------------
+Predicted Category : POLITICS (ID: 4)
+Factuality         : Factual (99.41%)
+Verdict            : Unverified
+Confidence Score   : 47.3
+----------------------------------------------------------------------------------------------------
+Top Evidence Sources:
+  1. https://www.pbs.org/newshour/politics/watch-pakistani-prime-minister-says-trump-is-a-man-of-peace-at-gaza-summit
+     Domain: pbs.org ✗ (Not in DB)
+     Title: WATCH: Pakistani prime minister says Trump is a 'man of peace' at ......
+     Evidence: president for the Nobel Peace Prize....
+     NLI: SUPPORTS (confidence: 0.7242054343223572)
+  2. https://en.wikipedia.org/wiki/Shehbaz_Sharif
+     Domain: en.wikipedia.org ✗ (Not in DB)
+     Title: Shehbaz Sharif - Wikipedia...
+     Evidence: Sharif was nominated as the president of the Pakistan Muslim League-N after his brother, Nawaz Sharif, was disqualified from holding office in the wak...
+     NLI: CONTRADICTS (confidence: 0.5595192909240723)
+  3. https://us.china-embassy.gov.cn/eng/zgyw/202509/t20250902_11700374.htm
+     Domain: us.china-embassy.gov.cn ✗ (Not in DB)
+     Title: President Xi Jinping Meets with Pakistani Prime Minister Shehbaz ......
+     Evidence: The Global Governance Initiative proposed by President Xi is of great significance for global peace, development, and stability....
+     NLI: CONTRADICTS (confidence: 0.49502459168434143)
+====================================================================================================
+
+
+====================================================================================================
+Timestamp      : 2025-10-16 19:30:08 UTC
+Tweet ID       : 207
+Author Handle  : @BabakTaghvaee1
+Tweet Date     : 2025-10-09
+Tweet Text     : #Breaking: The #Pakistan Air Force has just conducted a precise airstrike against the #Taliban terrorist organization in #Kabul, the capital city of #Afghanistan. Pakistan is punishing the Taliban leadership badly tonight.
+----------------------------------------------------------------------------------------------------
+Predicted Category : INTERNATIONAL_RELATIONS (ID: 2)
+Factuality         : Factual (99.96%)
+Verdict            : True
+Confidence Score   : 60.6
+----------------------------------------------------------------------------------------------------
+Top Evidence Sources:
+  1. https://www.aljazeera.com/news/2024/12/25/pakistan-air-strikes-in-afghanistan-spark-taliban-warning-of-retaliation
+     Domain: aljazeera.com ✓ (In DB)
+     Title: Pakistan air strikes in Afghanistan spark Taliban warning of ......
+     Evidence: Islamabad, Pakistan – The Pakistani military conducted air raids in neighbouring Afghanistan late on Tuesday night, targeting hideouts of the Pakistan...
+     NLI: SUPPORTS (confidence: 0.8048156499862671)
+  2. https://en.wikipedia.org/wiki/2019_Jammu_and_Kashmir_airstrikes
+     Domain: en.wikipedia.org ✗ (Not in DB)
+     Title: 2019 Jammu and Kashmir airstrikes - Wikipedia...
+     Evidence: According to Pakistani officials, the strike was meant to demonstrate Pakistan's capabilities without any further escalations.[41][42][43] Pakistani P...
+     NLI: CONTRADICTS (confidence: 0.5714055895805359)
+  3. https://www.cbsnews.com/news/pakistan-says-india-has-fired-missiles-on-its-air-bases/
+     Domain: cbsnews.com ✗ (Not in DB)
+     Title: India accuses Pakistan of violating ceasefire hours after reaching ......
+     Evidence: But now I'm tension-free." Pakistan launched a retaliatory strike early this morning, destroying several Indian military installations, including a ru...
+     NLI: SUPPORTS (confidence: 0.5917849540710449)
+====================================================================================================
+
+
+====================================================================================================
+Timestamp      : 2025-10-16 21:25:43 UTC
+Tweet ID       : 208
+Author Handle  : @BabakTaghvaee1
+Tweet Date     : 2025-10-09
+Tweet Text     : #Breaking: The #Pakistan Air Force has just conducted a precise airstrike against the #Taliban terrorist organization in #Kabul, the capital city of #Afghanistan. Pakistan is punishing the Taliban leadership badly tonight.
+----------------------------------------------------------------------------------------------------
+Predicted Category : INTERNATIONAL_RELATIONS (ID: 2)
+Factuality         : Factual (99.96%)
+Verdict            : Unverified
+Confidence Score   : 0.0
+----------------------------------------------------------------------------------------------------
+No evidence sources found.
+====================================================================================================
+
+
+====================================================================================================
+Timestamp      : 2025-10-16 21:26:24 UTC
+Tweet ID       : 209
+Author Handle  : @BBCUrdu
+Tweet Date     : 2025-10-13
+Tweet Text     : چین کی وزارتِ خارجہ کے ترجمان کا کہنا ہے کہ ’پاکستان (کے حکام) نے یقین دہانی کروائی ہے کہ امریکہ کے ساتھ کاروبار کبھی بھی چینی مفادات یا چین کے ساتھ تعاون کو نقصان نہیں پہنچائے گا۔‘
+----------------------------------------------------------------------------------------------------
+Predicted Category : INTERNATIONAL_RELATIONS (ID: 2)
+Factuality         : Factual (99.96%)
+Verdict            : Unverified
+Confidence Score   : 0.0
+----------------------------------------------------------------------------------------------------
+No evidence sources found.
+====================================================================================================
+
+
+====================================================================================================
+Timestamp      : 2025-10-16 21:31:45 UTC
+Tweet ID       : 210
+Author Handle  : @BBCUrdu
+Tweet Date     : 2025-10-13
+Tweet Text     : چین کی وزارتِ خارجہ کے ترجمان کا کہنا ہے کہ ’پاکستان (کے حکام) نے یقین دہانی کروائی ہے کہ امریکہ کے ساتھ کاروبار کبھی بھی چینی مفادات یا چین کے ساتھ تعاون کو نقصان نہیں پہنچائے گا۔‘
+----------------------------------------------------------------------------------------------------
+Predicted Category : INTERNATIONAL_RELATIONS (ID: 2)
+Factuality         : Factual (99.96%)
+Verdict            : False
+Confidence Score   : 70.4
+----------------------------------------------------------------------------------------------------
+Top Evidence Sources:
+  1. https://www.bbc.com/urdu/articles/c3w9699n0njo
+     Domain: bbc.com ✓ (In DB)
+     Title: پاکستان کے امریکہ کے ساتھ معدنیات کے شعبے میں تعاون اور افغان ......
+     Evidence: چینی وزارت خارجہ کا کہنا ہے کہ اسے پاکستانی حکام کی جانب سے یقین دہانی کرائی گئی ہے کہ امریکہ کے ساتھ اس کے کاروباری معاملات سے چینی مفادات کو نقصان ن...
+     NLI: SUPPORTS (confidence: 0.903368353843689)
+  2. https://www.dw.com/ur/%DA%86%DB%8C%D9%86-%D8%A7%DB%8C%D8%B1%D8%A7%D9%86-%D8%A7%D9%88%D8%B1-%D8%B1%D9%88%D8%B3-%DA%A9%DB%92-%D9%85%D8%A7%D8%A8%DB%8C%D9%86-%D8%A8%DB%8C%D8%AC%D9%86%DA%AF-%D9%85%DB%8C%DA%BA-%D8%AC%D9%88%DB%81%D8%B1%DB%8C-%D9%85%D8%B0%D8%A7%DA%A9%D8%B1%D8%A7%D8%AA/a-71901876
+     Domain: dw.com ✓ (In DB)
+     Title: چین، ایران اور روس کے مابین بیجنگ میں جوہری مذاکرات – DW – 12.03 ......
+     Evidence: ایران: امریکی ہتھیاروں کی پہنچ سے باہر جوہری تنصیب کی تعمیر اسی دوران چین نے کہا ہے کہ وہ اپنے جائز حقوق کے تحفظ میں ایران کی حمایت کرتا ہے اور ایرانی...
+     NLI: CONTRADICTS (confidence: 0.7074794173240662)
+  3. https://www.trturdu.com/article/5381f54c95c3
+     Domain: trturdu.com ✗ (Not in DB)
+     Title: جرمنی ہم پر بلا وجہ کی تنقید بند کرے :چین - TRT اُردُو...
+     Evidence: واڈیفل کے جاپان اور بعد ازاں انڈونیشیا کے دورے سے قبل اتوار کو جاری ہونے والے ایک بیان میں کہا گیا ہے کہ چین "تیزی سے اپنی علاقائی بالادستی پر زور دے ...
+     NLI: CONTRADICTS (confidence: 0.5031229853630066)
+====================================================================================================
+
+
+====================================================================================================
+Timestamp      : 2025-10-16 21:33:45 UTC
+Tweet ID       : 211
+Author Handle  : @MaryMargOlohan
+Tweet Date     : 2025-10-13
+Tweet Text     : Pakistan's Prime Minister Shehbaz Sharif calls for Donald Trump to receive the Nobel Peace Prize:  
+
+"Mr. President, I would like to salute you for your exemplary leadership. Visionary leadership." 
+
+"I think you are the man that this world needed most at this point in time. The world will always remember you as a man who did everything and went out of the way to stop seven, and today eight, wars."
+----------------------------------------------------------------------------------------------------
+Predicted Category : POLITICS (ID: 4)
+Factuality         : Factual (99.41%)
+Verdict            : Unverified
+Confidence Score   : 29.6
+----------------------------------------------------------------------------------------------------
+Top Evidence Sources:
+  1. https://en.wikipedia.org/wiki/Shehbaz_Sharif
+     Domain: en.wikipedia.org ✗ (Not in DB)
+     Title: Shehbaz Sharif - Wikipedia...
+     Evidence: Sharif was nominated as the president of the Pakistan Muslim League-N after his brother, Nawaz Sharif, was disqualified from holding office in the wak...
+     NLI: CONTRADICTS (confidence: 0.5595200061798096)
+  2. https://us.china-embassy.gov.cn/eng/zgyw/202509/t20250902_11700374.htm
+     Domain: us.china-embassy.gov.cn ✗ (Not in DB)
+     Title: President Xi Jinping Meets with Pakistani Prime Minister Shehbaz ......
+     Evidence: The Global Governance Initiative proposed by President Xi is of great significance for global peace, development, and stability....
+     NLI: CONTRADICTS (confidence: 0.4950258433818817)
+====================================================================================================
+
+
+====================================================================================================
+Timestamp      : 2025-10-17 01:05:38 UTC
+Tweet ID       : 212
+Author Handle  : @Currentreport1
+Tweet Date     : 2025-10-16
+Tweet Text     : BREAKING:
+
+Indonesia has agreed to purchase 42 J-10 fighter jets from China in a deal worth over $9 billion.
+
+This is one of China's largest and most historic arms exports ever.
+----------------------------------------------------------------------------------------------------
+Predicted Category : INTERNATIONAL_RELATIONS (ID: 2)
+Factuality         : Factual (99.97%)
+Verdict            : False
+Confidence Score   : 58.5
+----------------------------------------------------------------------------------------------------
+Top Evidence Sources:
+  1. https://www.bbc.com/news/articles/cwyq0ln6z6lo
+     Domain: bbc.com ✓ (In DB)
+     Title: US reaches tariff deal with Indonesia...
+     Evidence: Indonesia ranks as one of America's top 25 trade partners, sending about $28bn to the US last year, including clothing, footwear and palm oil....
+     NLI: CONTRADICTS (confidence: 0.6192222237586975)
+  2. https://breakingdefense.com/2025/06/indonesia-south-korea-sign-revised-kf-21-development-agreement/
+     Domain: breakingdefense.com ✗ (Not in DB)
+     Title: Indonesia, South Korea sign revised KF-21 development agreement ......
+     Evidence: Indonesia had previously committed to footing 20 percent, or approximately 1.7 trillion won, of the KF-21’s development costs when it signed onto the ...
+     NLI: CONTRADICTS (confidence: 0.5942110419273376)
+  3. https://www.cnn.com/2025/07/22/business/trump-philippines-trade-deal
+     Domain: cnn.com ✓ (In DB)
+     Title: Trump announces trade agreement with the Philippines and terms of ......
+     Evidence: Meanwhile, the United States exported $10 billion worth of goods to Indonesia last year....
+     NLI: CONTRADICTS (confidence: 0.5440305471420288)
+====================================================================================================
+
+
+====================================================================================================
+Timestamp      : 2025-10-17 01:06:50 UTC
+Tweet ID       : 213
+Author Handle  : @TheDailyCPEC
+Tweet Date     : 2025-10-16
+Tweet Text     : BREAKING: Indonesia seals $9 billion deal to buy 42 Chinese J-10C jets, its first-ever non-Western fighter purchase.
+----------------------------------------------------------------------------------------------------
+Predicted Category : INTERNATIONAL_RELATIONS (ID: 2)
+Factuality         : Factual (99.98%)
+Verdict            : True
+Confidence Score   : 71.1
+----------------------------------------------------------------------------------------------------
+Top Evidence Sources:
+  1. https://news.mongabay.com/2022/11/indonesia-seals-20-billion-deal-with-g7-to-speed-up-clean-energy-transition/
+     Domain: news.mongabay.com ✗ (Not in DB)
+     Title: Indonesia seals $20 billion deal with G7 to speed up clean energy ......
+     Evidence: JAKARTA — Indonesia has struck a historic deal with the G7 group of industrialized countries on a $20 billion financing package to help it speed up it...
+     NLI: SUPPORTS (confidence: 0.8437213897705078)
+  2. https://www.voanews.com/a/china-indonesia-seal-10-billion-in-deals-focused-on-green-energy-and-tech/7858988.html
+     Domain: voanews.com ✓ (In DB)
+     Title: China, Indonesia seal $10 billion in deals focused on green energy ......
+     Evidence: China and Indonesia signed deals worth $10 billion at the Indonesia-China Business Forum in Beijing on Sunday, spanning sectors including food, new en...
+     NLI: SUPPORTS (confidence: 0.8528912663459778)
+  3. https://www.euronews.com/business/2025/07/16/president-trump-pharma-tariff-is-coming-indonesia-deal-sealed
+     Domain: euronews.com ✓ (In DB)
+     Title: President Trump: Pharma tariff is coming, Indonesia deal sealed ......
+     Evidence: “As part of the agreement, Indonesia has committed to purchasing $15 billion in US Energy, $4.5 billion in American Agricultural Products, and 50 Boei...
+     NLI: SUPPORTS (confidence: 0.8272484540939331)
+====================================================================================================
+
+
+====================================================================================================
+Timestamp      : 2025-10-17 01:10:02 UTC
+Tweet ID       : 214
+Author Handle  : @TheDailyCPEC
+Tweet Date     : 2025-10-16
+Tweet Text     : BREAKING: Pakistan extends airspace ban on Indian flights till Nov 23 amid lingering post-ceasefire tensions.
+----------------------------------------------------------------------------------------------------
+Predicted Category : INTERNATIONAL_RELATIONS (ID: 2)
+Factuality         : Factual (99.98%)
+Verdict            : True
+Confidence Score   : 72.3
+----------------------------------------------------------------------------------------------------
+Top Evidence Sources:
+  1. https://indianexpress.com/article/business/aviation/pakistan-airspace-closure-indian-airlines-aircraft-10136393/
+     Domain: indianexpress.com ✗ (Not in DB)
+     Title: Pakistan extends airspace closure for Indian airlines, aircraft by ......
+     Evidence: Pakistan has extended the closure of its airspace for Indian aircraft and aircraft operated by Indian airlines by a month, till August 24 early mornin...
+     NLI: SUPPORTS (confidence: 0.7700023651123047)
+  2. https://www.thehindu.com/news/national/india-extends-airspace-closure-for-pakistan-aircraft-till-oct-24/article70083958.ece
+     Domain: thehindu.com ✓ (In DB)
+     Title: India extends airspace closure for Pakistan aircraft till October 24 ......
+     Evidence: Velankanni Raj India has extended the closure of its airspace for Pakistan civilian and military planes till October 24....
+     NLI: SUPPORTS (confidence: 0.6822714805603027)
+  3. https://abcnews.go.com/International/wireStory/pakistan-afghanistan-border-closure-extends-day-after-deadly-126468597
+     Domain: abcnews.go.com ✓ (In DB)
+     Title: Pakistan and Afghanistan border closure extends into second day ......
+     Evidence: Officials say the closure of border crossings for bilateral trade between Afghanistan and Pakistan has extended into a second day after deadly weekend...
+     NLI: SUPPORTS (confidence: 0.6611851453781128)
+====================================================================================================
+
+
+====================================================================================================
+Timestamp      : 2025-10-17 01:14:14 UTC
+Tweet ID       : 215
+Author Handle  : @bennyjohnson
+Tweet Date     : 2025-10-16
+Tweet Text     : NEW: President Trump sends a scorching final warning to Hamas:
+
+"If Hamas continues to kill people in Gaza, which was not the Deal, we will have no choice but to go in and kill them."
+----------------------------------------------------------------------------------------------------
+Predicted Category : INTERNATIONAL_RELATIONS (ID: 2)
+Factuality         : Factual (98.74%)
+Verdict            : Unverified
+Confidence Score   : 22.1
+----------------------------------------------------------------------------------------------------
+Top Evidence Sources:
+  1. https://www.pbs.org/newshour/world/irans-supreme-leader-rejects-talks-after-trump-sends-letter-seeking-new-nuclear-deal
+     Domain: pbs.org ✗ (Not in DB)
+     Title: Iran's supreme leader rejects talks after Trump sends letter seeking ......
+     Evidence: over its sanctions and with Israel as a shaky ceasefire holds in its war against Hamas in the Gaza Strip....
+     NLI: SUPPORTS (confidence: 0.5248136520385742)
+====================================================================================================
+
+
+====================================================================================================
+Timestamp      : 2025-10-17 01:15:37 UTC
+Tweet ID       : 216
+Author Handle  : @bennyjohnson
+Tweet Date     : 2025-10-16
+Tweet Text     : NEW: President Trump sends a scorching final warning to Hamas:
+
+"If Hamas continues to kill people in Gaza, which was not the Deal, we will have no choice but to go in and kill them."
+----------------------------------------------------------------------------------------------------
+Predicted Category : INTERNATIONAL_RELATIONS (ID: 2)
+Factuality         : Factual (98.74%)
+Verdict            : Unverified
+Confidence Score   : 22.1
+----------------------------------------------------------------------------------------------------
+Top Evidence Sources:
+  1. https://www.pbs.org/newshour/world/irans-supreme-leader-rejects-talks-after-trump-sends-letter-seeking-new-nuclear-deal
+     Domain: pbs.org ✗ (Not in DB)
+     Title: Iran's supreme leader rejects talks after Trump sends letter seeking ......
+     Evidence: over its sanctions and with Israel as a shaky ceasefire holds in its war against Hamas in the Gaza Strip....
+     NLI: SUPPORTS (confidence: 0.5248136520385742)
+====================================================================================================
+
+
+====================================================================================================
+Timestamp      : 2025-10-17 01:17:37 UTC
+Tweet ID       : 217
+Author Handle  : @FoxNews
+Tweet Date     : 2025-10-16
+Tweet Text     : BREAKING: Trump warns Hamas terrorists if they keep killing people in Gaza, 'we will have no choice but to go in and kill them'
+----------------------------------------------------------------------------------------------------
+Predicted Category : INTERNATIONAL_RELATIONS (ID: 2)
+Factuality         : Factual (99.9%)
+Verdict            : True
+Confidence Score   : 74.2
+----------------------------------------------------------------------------------------------------
+Top Evidence Sources:
+  1. https://www.lemonde.fr/en/international/article/2025/10/16/trump-warns-hamas-we-will-have-no-choice-but-to-go-in-and-kill-them-if-bloodshed-persists-in-gaza_6746502_4.html
+     Domain: lemonde.fr ✗ (Not in DB)
+     Title: Trump warns Hamas 'we will have no choice but to go in and kill ......
+     Evidence: President Donald Trump on Thursday, October 16, warned Hamas, "we will have no choice but to go in and kill them" if internal bloodshed persists in Ga...
+     NLI: SUPPORTS (confidence: 0.8630735278129578)
+  2. https://www.bbc.com/news/articles/c0mwln4p87do
+     Domain: bbc.com ✓ (In DB)
+     Title: Trump issues 'last warning' to Hamas over Israeli hostage release...
+     Evidence: "I am sending Israel everything it needs to finish the job, not a single Hamas member will be safe if you don't do as I say," Trump said in a lengthy ...
+     NLI: SUPPORTS (confidence: 0.8723356127738953)
+  3. https://www.foxnews.com/world/trump-issues-dire-warning-hamas-dont-disarm-we-disarm-them
+     Domain: foxnews.com ✗ (Not in DB)
+     Title: Trump warns Hamas 'we will disarm them' if they don't comply with ......
+     Evidence: President Donald Trump on Tuesday sent a stark message to Hamas, warning the terrorist network that if it doesn’t disarm, then "we will disarm them." ...
+     NLI: SUPPORTS (confidence: 0.8018301129341125)
+====================================================================================================
+
+
+====================================================================================================
+Timestamp      : 2025-10-17 01:22:24 UTC
+Tweet ID       : 218
+Author Handle  : @nanana365media
+Tweet Date     : 2025-10-11
+Tweet Text     : AFGHANISTAN  - PAKISTAN | The situation has deteriorated between the two neighbors with heavy armed fighting along their border : #Afghanistan has launched an offensive against #Pakistan from 7 separate border points, according to the Afghan MoD. Qatar is calling for calm.
+----------------------------------------------------------------------------------------------------
+Predicted Category : INTERNATIONAL_RELATIONS (ID: 2)
+Factuality         : Factual (99.93%)
+Verdict            : True
+Confidence Score   : 63.5
+----------------------------------------------------------------------------------------------------
+Top Evidence Sources:
+  1. https://www.aljazeera.com/news/2016/12/14/afghan-returnee-girls-at-risk-of-early-marriage-report
+     Domain: aljazeera.com ✓ (In DB)
+     Title: Afghan returnee girls at risk of early marriage: Report | Human ......
+     Evidence: Both Pakistan and Iran have been pressing for them to leave....
+     NLI: SUPPORTS (confidence: 0.7525234818458557)
+  2. https://www.voanews.com/a/south-central-asia_pakistan-refuses-host-additional-afghan-refugees/6208191.html
+     Domain: voanews.com ✓ (In DB)
+     Title: Pakistan Refuses to Host Additional Afghan Refugees...
+     Evidence: Of the 2,640-kilometer boundary with Afghanistan, Pakistan has fenced nearly 90% and deployed the army and the Frontier Constabulary, a militia under ...
+     NLI: SUPPORTS (confidence: 0.7405930757522583)
+  3. https://www.pbs.org/newshour/show/what-can-the-u-s-and-afghanistan-do-to-counter-taliban-gains
+     Domain: pbs.org ✗ (Not in DB)
+     Title: What can the U.S. and Afghanistan do to counter Taliban gains ......
+     Evidence: Why has the situation in Afghanistan, security situation, deteriorated so much in the past year?...
+     NLI: SUPPORTS (confidence: 0.8021156787872314)
+====================================================================================================
+
+
+====================================================================================================
+Timestamp      : 2025-10-17 01:24:58 UTC
+Tweet ID       : 219
+Author Handle  : @sumair_shah123
+Tweet Date     : 2025-10-16
+Tweet Text     : پاکستانی وزیراعظم شہباز شریف:
+
+شرم الشیخ میں قطری امیر نے کہا افغانستان کو پاکستان پر حملہ نہیں کرنا چاہیے تھا، سیز فائر افغانستان کی درخواست پر ہوا ہے، اگر افغانستان سنجیدہ ہے تو ہماری شرائط پر عمل کریں۔
+ #افغان_بھگاؤ_ملک_بچاؤ
+#MuftiMehmoodLegacy
+#پوچھ_کےبتاتاہوں
+#Pakistani
+----------------------------------------------------------------------------------------------------
+Predicted Category : INTERNATIONAL_RELATIONS (ID: 2)
+Factuality         : Factual (99.95%)
+Verdict            : Unverified
+Confidence Score   : 53.3
+----------------------------------------------------------------------------------------------------
+Top Evidence Sources:
+  1. https://ur.wikipedia.org/wiki/%D8%B4%DB%81%D8%A8%D8%A7%D8%B2_%D8%B4%D8%B1%DB%8C%D9%81
+     Domain: ur.wikipedia.org ✗ (Not in DB)
+     Title: شہباز شریف - آزاد دائرۃ المعارف، ویکیپیڈیا...
+     Evidence: شہباز شریف کے مطابق وہ نواز شریف کو ا...
+     NLI: SUPPORTS (confidence: 0.5188753604888916)
+  2. https://www.dawnnews.tv/news/1227304
+     Domain: dawnnews.tv ✗ (Not in DB)
+     Title: پاکستان کے 24ویں وزیراعظم شہباز شریف کا تعارف - Pakistan ......
+     Evidence: کچھ عرصہ قبل صحافیوں سے گفتگو کرتے ہوئے مسلم لیگ (ن) کے صدر کا کہنا تھا کہ ’سویلین اور ملٹری حکام کو پاکستان کو لاحق خطرات سے نمٹنے کے لیے ایک ساتھ کا...
+     NLI: SUPPORTS (confidence: 0.46233388781547546)
+  3. https://www.dw.com/ur/%D9%BE%D8%A7%DA%A9-%DA%86%DB%8C%D9%86-%D8%AF%D9%88%D8%B3%D8%AA%DB%8C-%DA%A9%D9%88-%D9%85%D8%B2%DB%8C%D8%AF-%D9%85%D8%B6%D8%A8%D9%88%D8%B7-%D8%A8%D9%86%D8%A7%DB%8C%D8%A7-%D8%AC%D8%A7%D8%A6%DB%92-%DA%AF%D8%A7-%D8%B4%DB%81%D8%A8%D8%A7%D8%B2-%D8%B4%D8%B1%DB%8C%D9%81/a-73849588
+     Domain: dw.com ✓ (In DB)
+     Title: پاک، چین دوستی کو مزید مضبوط بنایا جائے گا، شہباز شریف – DW ......
+     Evidence: شہباز شریف نے صدر علیوف کو جلد دورہ پاکستان کی دعوت دی۔...
+     NLI: CONTRADICTS (confidence: 0.5506406426429749)
+====================================================================================================
+
+
+====================================================================================================
+Timestamp      : 2025-10-17 01:26:25 UTC
+Tweet ID       : 220
+Author Handle  : @sumair_shah123
+Tweet Date     : 2025-10-16
+Tweet Text     : bye bye afghando
+خیبرپختونخوا کے تمام افغان مہاجر کیمپ ختم
+
+وفاقی حکومت نے  خیبرپختونخوا میں قائم 28 افغان مہاجرین کے کیمپ فوری طور پر ختم کرنے کا باضابطہ نوٹیفکیشن جاری کر دیا ہے۔
+
+#PakistanArmy #SecurityForces #AfghansRanAway #AfghanTaliban #Chaman
+----------------------------------------------------------------------------------------------------
+Predicted Category : INTERNATIONAL_RELATIONS (ID: 2)
+Factuality         : Factual (99.97%)
+Verdict            : Unverified
+Confidence Score   : 43.0
+----------------------------------------------------------------------------------------------------
+Top Evidence Sources:
+  1. https://www.bbc.com/urdu/articles/cyxzjqvplp7o
+     Domain: bbc.com ✓ (In DB)
+     Title: 'خالی خزانے' اور امن و امان کے خدشات سمیت خیبرپختونخوا کی نئی ......
+     Evidence: سینیئر صحافی علی اکبر کا کہنا ہے کہ ’موجودہ حکومت کے لیے سکیورٹی کا مسئلہ سر فہرست رہے گا اور اس کا اندازہ اس سے لگایا جا سکتا ہے کہ اس سال اب تک چند ...
+     NLI: CONTRADICTS (confidence: 0.5549439787864685)
+  2. https://fa.wikipedia.org/wiki/%D8%A7%DB%8C%D8%A7%D9%84%D8%AA_%D8%AE%DB%8C%D8%A8%D8%B1_%D9%BE%D8%AE%D8%AA%D9%88%D9%86%D8%AE%D9%88%D8%A7
+     Domain: fa.wikipedia.org ✗ (Not in DB)
+     Title: ایالت خیبر پختونخوا - ویکی‌پدیا، دانشنامهٔ آزاد...
+     Evidence: جمعیت خیبر پختونخوا ۲۱ میلیون نفر تخمین زده می‌شود....
+     NLI: SUPPORTS (confidence: 0.529079020023346)
+  3. https://ur.wikipedia.org/wiki/%D8%AE%DB%8C%D8%A8%D8%B1_%D9%BE%D8%AE%D8%AA%D9%88%D9%86%D8%AE%D9%88%D8%A7
+     Domain: ur.wikipedia.org ✗ (Not in DB)
+     Title: خیبر پختونخوا - آزاد دائرۃ المعارف، ویکیپیڈیا...
+     Evidence: صوبہ خیبرپختونخوا کی آبادی اندازہً 21 ملین ہے۔...
+     NLI: CONTRADICTS (confidence: 0.5127872228622437)
+====================================================================================================
+
+
+====================================================================================================
+Timestamp      : 2025-10-17 04:07:58 UTC
+Tweet ID       : 221
+Author Handle  : @nanana365media
+Tweet Date     : 2025-10-11
+Tweet Text     : AFGHANISTAN  - PAKISTAN | The situation has deteriorated between the two neighbors with heavy armed fighting along their border : #Afghanistan has launched an offensive against #Pakistan from 7 separate border points, according to the Afghan MoD. Qatar is calling for calm.
+----------------------------------------------------------------------------------------------------
+Predicted Category : INTERNATIONAL_RELATIONS (ID: 2)
+Factuality         : Factual (99.93%)
+Verdict            : True
+Confidence Score   : 63.5
+----------------------------------------------------------------------------------------------------
+Top Evidence Sources:
+  1. https://www.aljazeera.com/news/2016/12/14/afghan-returnee-girls-at-risk-of-early-marriage-report
+     Domain: aljazeera.com ✓ (In DB)
+     Title: Afghan returnee girls at risk of early marriage: Report | Human ......
+     Evidence: Both Pakistan and Iran have been pressing for them to leave....
+     NLI: SUPPORTS (confidence: 0.7525234818458557)
+  2. https://www.voanews.com/a/south-central-asia_pakistan-refuses-host-additional-afghan-refugees/6208191.html
+     Domain: voanews.com ✓ (In DB)
+     Title: Pakistan Refuses to Host Additional Afghan Refugees...
+     Evidence: Of the 2,640-kilometer boundary with Afghanistan, Pakistan has fenced nearly 90% and deployed the army and the Frontier Constabulary, a militia under ...
+     NLI: SUPPORTS (confidence: 0.7405930757522583)
+  3. https://www.pbs.org/newshour/show/what-can-the-u-s-and-afghanistan-do-to-counter-taliban-gains
+     Domain: pbs.org ✗ (Not in DB)
+     Title: What can the U.S. and Afghanistan do to counter Taliban gains ......
+     Evidence: Why has the situation in Afghanistan, security situation, deteriorated so much in the past year?...
+     NLI: SUPPORTS (confidence: 0.8021156787872314)
+====================================================================================================
+
+
+====================================================================================================
+Timestamp      : 2025-10-17 05:15:06 UTC
+Tweet ID       : 222
+Author Handle  : @nanana365media
+Tweet Date     : 2025-10-11
+Tweet Text     : AFGHANISTAN  - PAKISTAN | The situation has deteriorated between the two neighbors with heavy armed fighting along their border : #Afghanistan has launched an offensive against #Pakistan from 7 separate border points, according to the Afghan MoD. Qatar is calling for calm.
+----------------------------------------------------------------------------------------------------
+Predicted Category : INTERNATIONAL_RELATIONS (ID: 2)
+Factuality         : Factual (99.93%)
+Verdict            : True
+Confidence Score   : 63.5
+----------------------------------------------------------------------------------------------------
+Top Evidence Sources:
+  1. https://www.aljazeera.com/news/2016/12/14/afghan-returnee-girls-at-risk-of-early-marriage-report
+     Domain: aljazeera.com ✓ (In DB)
+     Title: Afghan returnee girls at risk of early marriage: Report | Human ......
+     Evidence: Both Pakistan and Iran have been pressing for them to leave....
+     NLI: SUPPORTS (confidence: 0.7525234818458557)
+  2. https://www.voanews.com/a/south-central-asia_pakistan-refuses-host-additional-afghan-refugees/6208191.html
+     Domain: voanews.com ✓ (In DB)
+     Title: Pakistan Refuses to Host Additional Afghan Refugees...
+     Evidence: Of the 2,640-kilometer boundary with Afghanistan, Pakistan has fenced nearly 90% and deployed the army and the Frontier Constabulary, a militia under ...
+     NLI: SUPPORTS (confidence: 0.7405930757522583)
+  3. https://www.pbs.org/newshour/show/what-can-the-u-s-and-afghanistan-do-to-counter-taliban-gains
+     Domain: pbs.org ✗ (Not in DB)
+     Title: What can the U.S. and Afghanistan do to counter Taliban gains ......
+     Evidence: Why has the situation in Afghanistan, security situation, deteriorated so much in the past year?...
+     NLI: SUPPORTS (confidence: 0.8021156787872314)
+====================================================================================================
+
+
+====================================================================================================
+Timestamp      : 2025-10-17 05:33:54 UTC
+Tweet ID       : 223
+Author Handle  : @nanana365media
+Tweet Date     : 2025-10-11
+Tweet Text     : AFGHANISTAN  - PAKISTAN | The situation has deteriorated between the two neighbors with heavy armed fighting along their border : #Afghanistan has launched an offensive against #Pakistan from 7 separate border points, according to the Afghan MoD. Qatar is calling for calm.
+----------------------------------------------------------------------------------------------------
+Predicted Category : INTERNATIONAL_RELATIONS (ID: 2)
+Factuality         : Factual (99.93%)
+Verdict            : True
+Confidence Score   : 63.5
+----------------------------------------------------------------------------------------------------
+Top Evidence Sources:
+  1. https://www.aljazeera.com/news/2016/12/14/afghan-returnee-girls-at-risk-of-early-marriage-report
+     Domain: aljazeera.com ✓ (In DB)
+     Title: Afghan returnee girls at risk of early marriage: Report | Human ......
+     Evidence: Both Pakistan and Iran have been pressing for them to leave....
+     NLI: SUPPORTS (confidence: 0.7525234818458557)
+  2. https://www.voanews.com/a/south-central-asia_pakistan-refuses-host-additional-afghan-refugees/6208191.html
+     Domain: voanews.com ✓ (In DB)
+     Title: Pakistan Refuses to Host Additional Afghan Refugees...
+     Evidence: Of the 2,640-kilometer boundary with Afghanistan, Pakistan has fenced nearly 90% and deployed the army and the Frontier Constabulary, a militia under ...
+     NLI: SUPPORTS (confidence: 0.7405930757522583)
+  3. https://www.pbs.org/newshour/show/what-can-the-u-s-and-afghanistan-do-to-counter-taliban-gains
+     Domain: pbs.org ✗ (Not in DB)
+     Title: What can the U.S. and Afghanistan do to counter Taliban gains ......
+     Evidence: Why has the situation in Afghanistan, security situation, deteriorated so much in the past year?...
+     NLI: SUPPORTS (confidence: 0.8021156787872314)
+====================================================================================================
+
+
+====================================================================================================
+Timestamp      : 2025-11-11 06:26:49 UTC
+Tweet ID       : 224
+Author Handle  : @Megatron_ron
+Tweet Date     : 2025-11-09
+Tweet Text     : BREAKING:
+
+ Chinese scientists developing a drug to extend human life to 150 years — NYT
+
+The breakthrough hinges on a grapeseed compound, PCC1, which in tests destroyed aged cells in mice, extending their lifespan by over 9%
+
+This 'holy grail' technology is now being adapted for humans.
+----------------------------------------------------------------------------------------------------
+Predicted Category : INTERNATIONAL_RELATIONS (ID: 2)
+Factuality         : Factual (99.93%)
+Verdict            : Unverified
+Confidence Score   : 0.0
+----------------------------------------------------------------------------------------------------
+No evidence sources found.
+====================================================================================================
+
+
+====================================================================================================
+Timestamp      : 2025-11-11 06:34:23 UTC
+Tweet ID       : 225
+Author Handle  : @SprinterPress
+Tweet Date     : 2025-11-10
+Tweet Text     : A spy network of the Pakistani intelligence service ISI was uncovered by employees of the Russian counterintelligence service in Saint Petersburg.
+
+According to information from the Financial Times, agents of the foreign special service attempted to smuggle secret documents about Russian military helicopters and air defense systems out of the country.
+----------------------------------------------------------------------------------------------------
+Predicted Category : INTERNATIONAL_RELATIONS (ID: 2)
+Factuality         : Factual (99.93%)
+Verdict            : True
+Confidence Score   : 66.9
+----------------------------------------------------------------------------------------------------
+Top Evidence Sources:
+  1. https://swarajyamag.com/defence/russia-busts-pakistans-isi-spy-ring-trying-to-steal-air-defence-technology
+     Domain: swarajyamag.com ✗ (Not in DB)
+     Title: Russia Busts Pakistan's ISI Spy Ring Trying To Steal Air Defence ......
+     Evidence: Moscow has uncovered a Pakistani spy network allegedly operated by the Inter-Services Intelligence (ISI) to smuggle sensitive Russian military technol...
+     NLI: SUPPORTS (confidence: 0.698634684085846)
+  2. https://www.republicworld.com/defence/russia-busts-isi-spy-network-in-st-petersburg-targeting-air-defence-military-helicopter-tech
+     Domain: republicworld.com ✗ (Not in DB)
+     Title: Russia Busts ISI Spy Network in St. Petersburg Targeting Air ......
+     Evidence: Moscow has busted a spy network run by Pakistan’s Inter-Services Intelligence (ISI)....
+     NLI: SUPPORTS (confidence: 0.7342866659164429)
+  3. https://www.aljazeera.com/news/2024/9/24/who-is-pakistans-new-spy-chief-asim-malik
+     Domain: aljazeera.com ✓ (In DB)
+     Title: Who is Pakistan's new spy chief Asim Malik? | Military News | Al ......
+     Evidence: “Both these positions contradict each other.” Founded in 1948, the ISI is Pakistan’s equivalent of the CIA in the US, the British MI6 or India’s Resea...
+     NLI: CONTRADICTS (confidence: 0.8173201084136963)
+====================================================================================================
+
+
+====================================================================================================
+Timestamp      : 2025-11-11 06:39:58 UTC
+Tweet ID       : 226
+Author Handle  : @Inevitablewest
+Tweet Date     : 2025-11-10
+Tweet Text     : BREAKING: Donald Trump is now planning to SUE the BBC for over $1B
+
+This is END for the BBC!
+----------------------------------------------------------------------------------------------------
+Predicted Category : INTERNATIONAL_RELATIONS (ID: 2)
+Factuality         : Factual (99.92%)
+Verdict            : Unverified
+Confidence Score   : 18.4
+----------------------------------------------------------------------------------------------------
+Top Evidence Sources:
+  1. https://www.gov.ca.gov/2025/06/11/president-trump-agrees-hes-breaking-the-law-in-california-heres-the-evidence/
+     Domain: gov.ca.gov ✗ (Not in DB)
+     Title: President Trump agrees he's breaking the law in California. Here's ......
+     Evidence: As Donald Trump abandons......
+     NLI: SUPPORTS (confidence: 0.5621132254600525)
+====================================================================================================
+
+
+====================================================================================================
+Timestamp      : 2025-11-11 06:50:49 UTC
+Tweet ID       : 227
+Author Handle  : @Inevitablewest
+Tweet Date     : 2025-11-10
+Tweet Text     : BREAKING: Donald Trump is now planning to SUE the BBC for over $1B
+
+This is END for the BBC!
+----------------------------------------------------------------------------------------------------
+Predicted Category : INTERNATIONAL_RELATIONS (ID: 2)
+Factuality         : Factual (99.92%)
+Verdict            : Unverified
+Confidence Score   : 18.4
+----------------------------------------------------------------------------------------------------
+Top Evidence Sources:
+  1. https://www.gov.ca.gov/2025/06/11/president-trump-agrees-hes-breaking-the-law-in-california-heres-the-evidence/
+     Domain: gov.ca.gov ✗ (Not in DB)
+     Title: President Trump agrees he's breaking the law in California. Here's ......
+     Evidence: As Donald Trump abandons......
+     NLI: SUPPORTS (confidence: 0.5621132254600525)
+====================================================================================================
+
+
+====================================================================================================
+Timestamp      : 2025-11-11 06:53:32 UTC
+Tweet ID       : 228
+Author Handle  : @iihtishamm
+Tweet Date     : 2025-11-09
+Tweet Text     : Pakistanis hold over $30B in crypto assets. Experts warn that without clear regulations, the country could miss a major economic opportunity. The State Bank, with IMF & World Bank support, is now developing a digital rupee prototype.
+----------------------------------------------------------------------------------------------------
+Predicted Category : ECONOMY (ID: 1)
+Factuality         : Factual (99.94%)
+Verdict            : Unverified
+Confidence Score   : 33.6
+----------------------------------------------------------------------------------------------------
+Top Evidence Sources:
+  1. https://tribune.com.pk/story/2432111/rupee-hits-historic-low-as-import-pressure-mounts
+     Domain: tribune.com.pk ✓ (In DB)
+     Title: Rupee hits historic low as import pressure mounts...
+     Evidence: “The element of speculation cannot be ruled out these days considering the caretaker government has yet to get hold over the happenings.” Pakistan is ...
+     NLI: SUPPORTS (confidence: 0.7554709911346436)
+====================================================================================================
+
+
+====================================================================================================
+Timestamp      : 2025-12-09 17:49:34 UTC
+Tweet ID       : 229
+Author Handle  : @Currentreport1
+Tweet Date     : 2025-12-09
+Tweet Text     : BREAKING:
+
+Clashes between Thailand and Cambodia have intensified, with both sides now deploying heavy weapons. 
+
+Cambodia has launched rocket strikes in response to earlier Thai airstrikes.
+----------------------------------------------------------------------------------------------------
+Predicted Category : INTERNATIONAL_RELATIONS (ID: 2)
+Factuality         : Factual (99.93%)
+Verdict            : False
+Confidence Score   : 56.9
+----------------------------------------------------------------------------------------------------
+Top Evidence Sources:
+  1. https://abcnews.go.com/International/7-civilians-killed-thousands-displaced-amid-thailand-cambodia/story?id=128233661
+     Domain: abcnews.go.com ✓ (In DB)
+     Title: 7 civilians killed, thousands displaced amid Thailand-Cambodia ......
+     Evidence: Since Monday, the clashes have spread to several provinces along the Cambodia-Thailand border....
+     NLI: CONTRADICTS (confidence: 0.5452484488487244)
+  2. https://www.cbsnews.com/news/thailand-cambodia-border-clashes-violence-continues/
+     Domain: cbsnews.com ✗ (Not in DB)
+     Title: Deadly border clashes between Thailand and Cambodia continue ......
+     Evidence: The current tensions broke out in May when a Cambodian soldier was killed in a confrontation that created a diplomatic rift and roiled Thailand's dome...
+     NLI: CONTRADICTS (confidence: 0.5473334789276123)
+  3. https://www.nbcnews.com/world/asia/thailand-cambodia-border-clash-rcna220744
+     Domain: nbcnews.com ✗ (Not in DB)
+     Title: Why these two neighbors in Asia launched the world's latest armed ......
+     Evidence: Cambodia and Thailand have fought several deadly skirmishes since the border was delineated in 1907, particularly in the area surrounding the ancient ...
+     NLI: CONTRADICTS (confidence: 0.525456428527832)
+====================================================================================================
+
+
+====================================================================================================
+Timestamp      : 2025-12-09 18:53:42 UTC
+Tweet ID       : 230
+Author Handle  : @ashoswai
+Tweet Date     : 2025-12-08
+Tweet Text     : Pakistan’s interior minister Mohsin Naqvi’s car is being checked for explosives while entering UK foreign office. He was there to request extradition of a former advisor of Imran Khan. These guys have no values, no respect, Munir is the only master!
+----------------------------------------------------------------------------------------------------
+Predicted Category : INTERNATIONAL_RELATIONS (ID: 2)
+Factuality         : Factual (99.88%)
+Verdict            : True
+Confidence Score   : 53.5
+----------------------------------------------------------------------------------------------------
+Top Evidence Sources:
+  1. https://www.bbc.com/news/articles/cp3x6102p3ko
+     Domain: bbc.com ✓ (In DB)
+     Title: Suicide bombing in Islamabad kills 12, says Pakistan's interior minister...
+     Evidence: Naqvi said authorities would prioritise identifying the bomber, and that those involved would be brought to justice....
+     NLI: SUPPORTS (confidence: 0.7575579285621643)
+  2. https://en.wikipedia.org/wiki/Mohsin_Naqvi
+     Domain: en.wikipedia.org ✗ (Not in DB)
+     Title: Mohsin Naqvi - Wikipedia...
+     Evidence: The petition also requested an investigation into Naqvi for alleged constitutional violations and sought his trial for high treason.[29] In an April 2...
+     NLI: SUPPORTS (confidence: 0.5163446664810181)
+  3. https://www.lemonde.fr/en/international/article/2025/11/11/pakistan-s-interior-minister-says-suicide-bomber-kills-12-outside-islamabad-court_6747336_4.html
+     Domain: lemonde.fr ✗ (Not in DB)
+     Title: Pakistan's interior minister says suicide bomber kills 12 outside ......
+     Evidence: The attacker tried to "enter the court premises but, failing to do so, targeted a police vehicle," Interior Minister Mohsin Naqvi told reporters....
+     NLI: SUPPORTS (confidence: 0.6582010984420776)
+====================================================================================================
+
+
+====================================================================================================
+Timestamp      : 2025-12-09 20:18:47 UTC
+Tweet ID       : 231
+Author Handle  : @ashoswai
+Tweet Date     : 2025-12-08
+Tweet Text     : Pakistan’s interior minister Mohsin Naqvi’s car is being checked for explosives while entering UK foreign office. He was there to request extradition of a former advisor of Imran Khan. These guys have no values, no respect, Munir is the only master!
+----------------------------------------------------------------------------------------------------
+Predicted Category : INTERNATIONAL_RELATIONS (ID: 2)
+Factuality         : Factual (99.88%)
+Verdict            : True
+Confidence Score   : 53.5
+----------------------------------------------------------------------------------------------------
+Top Evidence Sources:
+  1. https://www.bbc.com/news/articles/cp3x6102p3ko
+     Domain: bbc.com ✓ (In DB)
+     Title: Suicide bombing in Islamabad kills 12, says Pakistan's interior minister...
+     Evidence: Naqvi said authorities would prioritise identifying the bomber, and that those involved would be brought to justice....
+     NLI: SUPPORTS (confidence: 0.7575579285621643)
+  2. https://en.wikipedia.org/wiki/Mohsin_Naqvi
+     Domain: en.wikipedia.org ✗ (Not in DB)
+     Title: Mohsin Naqvi - Wikipedia...
+     Evidence: The petition also requested an investigation into Naqvi for alleged constitutional violations and sought his trial for high treason.[29] In an April 2...
+     NLI: SUPPORTS (confidence: 0.5163446664810181)
+  3. https://www.lemonde.fr/en/international/article/2025/11/11/pakistan-s-interior-minister-says-suicide-bomber-kills-12-outside-islamabad-court_6747336_4.html
+     Domain: lemonde.fr ✗ (Not in DB)
+     Title: Pakistan's interior minister says suicide bomber kills 12 outside ......
+     Evidence: The attacker tried to "enter the court premises but, failing to do so, targeted a police vehicle," Interior Minister Mohsin Naqvi told reporters....
+     NLI: SUPPORTS (confidence: 0.6582010984420776)
+====================================================================================================
+
+
+====================================================================================================
+Timestamp      : 2025-12-09 20:21:27 UTC
+Tweet ID       : 232
+Author Handle  : @visegrad24
+Tweet Date     : 2025-12-08
+Tweet Text     : Video of a Thai soldier firing at a Cambodian drone with an M16A3 before taking it down near the Thai-Cambodian border.
+----------------------------------------------------------------------------------------------------
+Predicted Category : INTERNATIONAL_RELATIONS (ID: 2)
+Factuality         : Factual (94.16%)
+Verdict            : True
+Confidence Score   : 73.7
+----------------------------------------------------------------------------------------------------
+Top Evidence Sources:
+  1. https://apnews.com/article/thailand-cambodia-border-conflict-ceasefire-5b4c71e8bccb49520478e2b54e0ad640
+     Domain: apnews.com ✓ (In DB)
+     Title: Cambodia and Thailand's border conflict heats up again as ......
+     Evidence: In this photo released by Agence Kampuchea Press (AKP), an injured man, second from right, is picked up by a Cambodian army soldier on a motorbike aft...
+     NLI: SUPPORTS (confidence: 0.785943329334259)
+  2. https://www.npr.org/2025/07/24/nx-s1-5477699/thailand-cambodia-tensions
+     Domain: npr.org ✓ (In DB)
+     Title: Thailand and Cambodia exchange fire in clashes, killing at least 9 ......
+     Evidence: Cambodia's Defense Ministry also said Thailand employed a drone first before opening fire, and that Cambodia "acted strictly within the bounds of self...
+     NLI: SUPPORTS (confidence: 0.6484244465827942)
+  3. https://www.cnn.com/world/live-news/thailand-cambodia-border-dispute-07-24-25-intl-hnk
+     Domain: cnn.com ✓ (In DB)
+     Title: Thailand launches airstrikes on Cambodian military targets as ......
+     Evidence: Thailand also accused Cambodia of launching rockets into civilian areas....
+     NLI: SUPPORTS (confidence: 0.717326819896698)
+====================================================================================================
+
+
+====================================================================================================
+Timestamp      : 2025-12-09 20:21:54 UTC
+Tweet ID       : 233
+Author Handle  : @World_Affairs11
+Tweet Date     : 2025-12-08
+Tweet Text     : BREAKING:
+
+China says it will show the strongest evidence world that COVID-19 was originated from the United States.
+----------------------------------------------------------------------------------------------------
+Predicted Category : INTERNATIONAL_RELATIONS (ID: 2)
+Factuality         : Factual (99.93%)
+Verdict            : Unverified
+Confidence Score   : 54.8
+----------------------------------------------------------------------------------------------------
+Top Evidence Sources:
+  1. https://www.pbs.org/newshour/world/china-agrees-to-trade-talks-with-the-u-s-and-rolls-out-more-stimulus-as-tariffs-hit-economy
+     Domain: pbs.org ✗ (Not in DB)
+     Title: China agrees to trade talks with the U.S. and rolls out more stimulus ......
+     Evidence: Late Tuesday, China and the U.S....
+     NLI: CONTRADICTS (confidence: 0.5526337623596191)
+  2. https://www.aljazeera.com/news/2025/4/13/china-says-us-tariff-exemptions-small-step-in-correcting-wrong-practice
+     Domain: aljazeera.com ✓ (In DB)
+     Title: China says US tariff exemptions 'small step in correcting wrong ......
+     Evidence: China has welcomed the announcement by the United States of a series of exemptions from import levies on consumer electronics, which it said was a “sm...
+     NLI: SUPPORTS (confidence: 0.6070873737335205)
+  3. https://www.bbc.com/news/articles/cjr1reyr059o
+     Domain: bbc.com ✓ (In DB)
+     Title: China parade: What new weapons on show say about Beijing's ......
+     Evidence: They are going all the way to integrate it into their systems." The parade clearly shows that China is catching up quickly with the US in its military...
+     NLI: CONTRADICTS (confidence: 0.5151439905166626)
+====================================================================================================
+

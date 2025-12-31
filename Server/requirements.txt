@@ -1,0 +1,29 @@
+# FastAPI & Server
+fastapi
+uvicorn
+pydantic
+requests
+
+# Database
+SQLAlchemy
+psycopg2-binary   # for PostgreSQL (use appropriate driver)
+# or, if using SQLite, comment above and uncomment below
+# sqlite
+
+# Transformers & NLP
+transformers
+torch
+sentence-transformers
+nltk
+
+# HTML Parsing
+beautifulsoup4
+
+# Utilities
+langdetect
+
+# Optional (depending on model usage)
+accelerate
+bitsandbytes
+
+# For Enum, datetime, typing — built-in, no need to install

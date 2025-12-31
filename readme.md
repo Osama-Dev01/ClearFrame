@@ -24,7 +24,7 @@
 ## Project Overview
 
 <p align="center">
-  <img src="assets/clearframe.png" alt="ClearFrame Overview" width="600">
+  <img src="https://github.com/Osama-Dev01/ClearFrame/blob/main/DashBoard_m/public/arrr.PNG" alt="ClearFrame Overview" width="600">
 </p>
 
 ClearFrame is a comprehensive **AI-driven misinformation detection and fact-checking system** tailored to combat the rapid spread of false and misleading information on social media platforms, with a strong focus on Pakistan-relevant contexts. It delivers real-time, automated verification of news, claims, and statements shared on Twitter (X) and Facebook, supporting multilingual (Urdu + English) content common in the region.

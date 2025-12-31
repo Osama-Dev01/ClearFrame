@@ -1,0 +1,298 @@
+/* --- Professional Color Palette & Base Styles --- */
+:root {
+  --primary-bg: #f8f9fc;
+  --card-bg: #ffffff;
+  --text-primary: #2c3e50;
+  --text-secondary: #6c757d;
+  --accent-blue: #007bff;
+  --accent-green: #28a745;
+  --accent-orange: #fd7e14;
+  --accent-purple: #6f42c1;
+  --border-color: #e9ecef;
+  --shadow: 0 4px 6px rgba(0, 0, 0, 0.04), 0 1px 3px rgba(0, 0, 0, 0.08);
+  --shadow-hover: 0 7px 14px rgba(0, 0, 0, 0.06), 0 3px 6px rgba(0, 0, 0, 0.08);
+  --sidebar-width: 240px;
+  --dashboard-start: 255px;
+}
+
+.dashboard-container {
+  /* Top, Right, Bottom, Left */
+padding: 0 2rem 2rem 2rem;
+
+/* Or */
+padding: 0 2rem 2rem; /* Top: 0, Right/Left: 2rem, Bottom: 2rem */
+  background-color: var(--primary-bg);
+  animation: fadeIn 0.5s ease-out;
+  margin-left: var(--dashboard-start);
+   height: 100vh;
+  box-sizing: border-box;
+  margin-top: -30px;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+/* --- Header --- */
+
+
+.dashboard-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; /* Vertically center items for a cleaner look */
+  margin-bottom: 32px;
+  padding-top: 6px;
+  flex-wrap: wrap; 
+  gap: 20px; /* Increased gap for better spacing when wrapped */
+}
+
+.dashboard-title {
+  font-size: 22px; /* Slightly smaller for a less heavy feel */
+  font-weight: 700; /* Reduced from 700 to soften the text */
+  color: #1E293B;
+  margin-bottom: 2px; /* Reduced margin for tighter grouping */
+  letter-spacing: -0.5px; /* Subtle letter-spacing for a modern touch */
+}
+
+.dashboard-subtitle {
+  font-size: 14px;
+  color: #64748B;
+  font-weight: 400;
+}
+
+.user-profile {
+  display: flex;
+  align-items: center;
+  gap: 14px; /* Increased gap for more breathing room */
+  padding: 8px; /* Added padding to make it a clickable/hoverable area */
+  border-radius: 12px;
+  transition: background-color 0.2s ease-in-out;
+}
+
+/* Add a subtle hover effect for a professional feel */
+.user-profile:hover {
+  background-color: rgba(230, 232, 235, 0.5); 
+}
+
+.user-avatar {
+  width: 54px; /* Slightly smaller avatar for better scale */
+  height: 44px;
+  border-radius: 50%; /* Changed to a circle for a more common profile look */
+  background: linear-gradient(135deg, #6B5AED 0%, #4DA8DA 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-weight: 600;
+  font-size: 16px;
+  /* Add a subtle shadow to lift it off the page */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+}
+
+.user-info {
+  text-align: right;
+}
+
+.user-name {
+  font-size: 15px; /* Slightly larger than role for hierarchy */
+  font-weight: 500; /* Medium weight */
+  color: #334155; /* A slightly softer black */
+  margin-bottom: 1px;
+}
+
+.user-role {
+  font-size: 12px;
+  color: #94A3B8; /* Lighter color to de-emphasize */
+  text-transform: uppercase; /* Professional touch for roles */
+  letter-spacing: 0.5px;
+}
+
+
+.stats-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1.5rem;
+  margin-bottom: 2.5rem;
+  width: 100%;
+  
+  /* Force horizontal layout */
+  grid-auto-flow: column;
+  grid-template-rows: 1fr; /* Single row only */
+  grid-auto-columns: 1fr; /* Equal width columns */
+  
+  /* Prevent wrapping */
+  overflow-x: auto;
+  white-space: nowrap;
+}
+
+/* Make cards fit properly */
+.stat-card {
+  background-color: var(--card-bg);
+  padding: 1.5rem;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  box-shadow: var(--shadow);
+  border: 1px solid var(--border-color);
+  transition: all 0.3s ease;
+  
+  /* Critical for grid layout */
+  min-width: 0; /* Allows card to shrink */
+  width: 100%;
+}
+.stat-card:hover {
+  transform: translateY(-5px);
+  box-shadow: var(--shadow-hover);
+}
+
+.stat-icon {
+  width: 50px;
+  height: 50px;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+}
+
+.stat-info .stat-title {
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: var(--text-secondary);
+  margin: 0 0 0.25rem 0;
+}
+
+.stat-info .stat-value {
+  font-size: 1.75rem;
+  font-weight: 600;
+  color: var(--text-primary);
+  margin: 0;
+}
+
+/* --- Main Dashboard Content Grid (2 columns) --- */
+.dashboard-main-grid {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 1.5rem;
+}
+
+/* Handle responsiveness for the main grid */
+@media (max-width: 1200px) {
+  .dashboard-main-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .dashboard-container {
+    margin-left: 0;
+    padding: 1rem;
+    
+  }
+}
+
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+  .dashboard-container {
+    margin-left: 0;
+    padding: 1rem;
+  }
+  
+  .stats-grid {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+  
+  .dashboard-main-grid {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+  
+  .dashboard-header h1 {
+    font-size: 1.75rem;
+  }
+}
+
+.dashboard-card {
+  background-color: var(--card-bg);
+  padding: 1.5rem;
+  border-radius: 12px;
+  box-shadow: var(--shadow);
+  border: 1px solid var(--border-color);
+}
+
+.card-header {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: var(--text-primary);
+  margin-bottom: 1.5rem;
+  border-bottom: 1px solid var(--border-color);
+  padding-bottom: 1rem;
+}
+
+/* --- Pie Chart Styling --- */
+.recharts-legend-item {
+  margin-right: 15px !important;
+  font-size: 14px;
+}
+
+.recharts-tooltip-wrapper {
+  outline: none;
+}
+
+/* --- Activity List Styling --- */
+.activity-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.activity-item {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 0.75rem;
+  border-radius: 8px;
+  transition: background-color 0.2s ease;
+}
+
+.activity-item:hover {
+  background-color: #f8f9fa;
+}
+
+.activity-icon {
+  font-size: 1.25rem;
+  padding: 10px;
+  border-radius: 8px;
+  background-color: var(--primary-bg);
+}
+
+.activity-info {
+  flex-grow: 1;
+}
+
+.activity-info .title {
+  font-weight: 500;
+  color: var(--text-primary);
+}
+
+.activity-info .count {
+  font-size: 0.9rem;
+  color: var(--text-secondary);
+}
+
+/* Ensure content doesn't get hidden behind sidebar on smaller screens */
+@media (max-width: 1024px) {
+  .dashboard-container {
+    margin-left: 0;
+    width: 100%;
+  }
+}
+
+/* Print styles */
+@media print {
+  .dashboard-container {
+    margin-left: 0;
+    padding: 0;
+  }
+}

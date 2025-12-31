@@ -1,0 +1,813 @@
+/* === General Layout === */
+.request-page {
+  padding: 2rem;
+  min-height: 100vh;
+  background: #f9fafc;
+  color: #222;
+  font-family: "Inter", sans-serif;
+  overflow-y: auto;
+  padding-left: calc(265px + 2rem); /* ✅ adds space for sidebar */
+  margin-top: -35px;
+}
+
+.page-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1.5rem;
+}
+
+
+
+
+.page-header h2 {
+   font-size: 1.75rem;
+  font-weight: 600;
+  color: var(--text-color);
+  border-left: 5px solid #6b5aed;
+  padding-left: 10px;
+  margin-bottom: 1rem; /* Added for spacing like .heading */
+}
+
+.refresh-btn {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  background: linear-gradient(135deg, #6c63ff, #4e54c8);
+  border: none;
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 10px;
+  font-weight: 500;
+  cursor: pointer;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+  transition: all 0.2s ease-in-out;
+}
+
+.refresh-btn:hover {
+  transform: translateY(-2px);
+  opacity: 0.9;
+}
+
+
+
+
+
+/* === Table Card === */
+.card-table {
+  background: white;
+  border-radius: 18px;
+  box-shadow: 0 6px 24px rgba(108, 99, 255, 0.08);
+  overflow-x: auto;
+  padding: 0; /* Remove padding from container */
+  transition: all 0.3s ease;
+  border: 1px solid rgba(108, 99, 255, 0.06);
+  position: relative;
+}
+
+/* Add subtle gradient border to top */
+.card-table::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 3px;
+  background: linear-gradient(to right, #6c63ff, #8a84ff, #6c63ff);
+  border-radius: 18px 18px 0 0;
+}
+
+.request-table {
+  width: 100%;
+  border-collapse: collapse;
+  min-width: 900px; /* Ensure minimum width for proper alignment */
+}
+
+/* Table Header Improvements */
+.request-table thead {
+  background: linear-gradient(135deg, #f9f8ff, #f5f4ff);
+  border-bottom: 2px solid rgba(108, 99, 255, 0.1);
+}
+
+.request-table th {
+  text-align: left;
+  font-weight: 700;
+  color: #555;
+  padding: 1.25rem 1.5rem;
+  border-bottom: 2px solid rgba(108, 99, 255, 0.15);
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  white-space: nowrap;
+  position: relative;
+}
+
+/* Add subtle separator between headers */
+.request-table th:not(:last-child)::after {
+  content: "";
+  position: absolute;
+  right: 0;
+  top: 25%;
+  height: 50%;
+  width: 1px;
+  background: rgba(108, 99, 255, 0.08);
+}
+
+/* Table Body Improvements */
+.request-table tbody tr {
+  transition: all 0.25s ease;
+  border-bottom: 1px solid rgba(108, 99, 255, 0.04);
+}
+
+.request-table tbody tr:last-child {
+  border-bottom: none;
+}
+
+.request-table td {
+  padding: 1.25rem 1.5rem;
+  vertical-align: middle;
+  color: #444;
+  font-size: 0.925rem;
+  line-height: 1.5;
+}
+
+/* Alternating row colors for better readability */
+.request-table tbody tr:nth-child(even) {
+  background-color: rgba(249, 250, 255, 0.3);
+}
+
+.request-table tbody tr:hover {
+  background: linear-gradient(to right, rgba(108, 99, 255, 0.04), rgba(108, 99, 255, 0.02));
+  transform: translateX(2px);
+  box-shadow: inset 3px 0 0 #6c63ff;
+}
+
+/* Column-specific alignment */
+.request-table td:first-child {
+  font-weight: 600;
+  color: #2c3e50;
+}
+
+/* Name column */
+.request-table td:nth-child(1) {
+  min-width: 180px;
+}
+
+/* Email column */
+.request-table td:nth-child(2) {
+  min-width: 220px;
+  color: #6c63ff;
+  font-weight: 500;
+}
+
+/* Role column */
+.request-table td:nth-child(3) {
+  min-width: 120px;
+}
+
+/* Links column */
+.request-table td:nth-child(4) {
+  min-width: 180px;
+}
+
+/* Date column */
+.request-table td:nth-child(5) {
+  min-width: 140px;
+  color: #666;
+  font-size: 0.875rem;
+}
+
+/* Actions column */
+.request-table td:last-child {
+  min-width: 200px;
+  text-align: right;
+}
+
+/* === Enhanced Role Badges === */
+.role-badge {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.4rem 1rem;
+  border-radius: 12px;
+  font-size: 0.8rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.3px;
+  min-width: 80px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+  transition: all 0.2s ease;
+}
+
+.role-badge.admin {
+  background: linear-gradient(135deg, rgba(108, 99, 255, 0.12), rgba(108, 99, 255, 0.08));
+  color: #6c63ff;
+  border: 1.5px solid rgba(108, 99, 255, 0.2);
+}
+
+.role-badge.member {
+  background: linear-gradient(135deg, rgba(33, 150, 243, 0.12), rgba(33, 150, 243, 0.08));
+  color: #2196f3;
+  border: 1.5px solid rgba(33, 150, 243, 0.2);
+}
+
+.role-badge:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.08);
+}
+
+/* === Enhanced Action Buttons === */
+.action-column {
+  display: flex;
+  gap: 0.75rem;
+  justify-content: flex-end;
+}
+
+.accept-btn, .decline-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  padding: 0.5rem 1.25rem;
+  border-radius: 10px;
+  font-weight: 600;
+  font-size: 0.85rem;
+  border: none;
+  cursor: pointer;
+  transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+  min-width: 90px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  position: relative;
+  overflow: hidden;
+}
+
+.accept-btn::before,
+.decline-btn::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.2), transparent);
+  transition: left 0.5s;
+}
+
+.accept-btn:hover::before,
+.decline-btn:hover::before {
+  left: 100%;
+}
+
+.accept-btn {
+  background: linear-gradient(135deg, #4caf50, #45a049);
+  color: white;
+  border: 1px solid rgba(76, 175, 80, 0.3);
+}
+
+.accept-btn:hover {
+  background: linear-gradient(135deg, #45a049, #3e8e41);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(76, 175, 80, 0.3);
+}
+
+.decline-btn {
+  background: linear-gradient(135deg, #f44336, #e53935);
+  color: white;
+  border: 1px solid rgba(244, 67, 54, 0.3);
+}
+
+.decline-btn:hover {
+  background: linear-gradient(135deg, #e53935, #d32f2f);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(244, 67, 54, 0.3);
+}
+
+/* Button icons */
+.accept-btn::after {
+  content: "✓";
+  font-weight: bold;
+  font-size: 0.9rem;
+}
+
+.decline-btn::after {
+  content: "✗";
+  font-weight: bold;
+  font-size: 0.9rem;
+}
+
+/* === Enhanced Social Links === */
+.social-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  color: #6c63ff;
+  text-decoration: none;
+  font-weight: 500;
+  padding: 0.3rem 0.75rem;
+  border-radius: 8px;
+  background: rgba(108, 99, 255, 0.05);
+  border: 1px solid rgba(108, 99, 255, 0.1);
+  transition: all 0.2s ease;
+  font-size: 0.85rem;
+}
+
+.social-link:hover {
+  background: rgba(108, 99, 255, 0.1);
+  transform: translateY(-1px);
+  text-decoration: none;
+  box-shadow: 0 2px 6px rgba(108, 99, 255, 0.15);
+}
+
+/* Multiple links container */
+.links-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.no-links {
+  color: #aaa;
+  font-style: italic;
+  font-size: 0.85rem;
+  padding: 0.5rem;
+  background: rgba(0, 0, 0, 0.02);
+  border-radius: 6px;
+  display: inline-block;
+}
+
+/* === Status Indicators === */
+.status-indicator {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 0.85rem;
+  font-weight: 500;
+}
+
+.status-indicator::before {
+  content: "";
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.status-pending::before {
+  background-color: #ff9800;
+  box-shadow: 0 0 0 3px rgba(255, 152, 0, 0.2);
+}
+
+.status-approved::before {
+  background-color: #4caf50;
+  box-shadow: 0 0 0 3px rgba(76, 175, 80, 0.2);
+}
+
+.status-rejected::before {
+  background-color: #f44336;
+  box-shadow: 0 0 0 3px rgba(244, 67, 54, 0.2);
+}
+
+/* === Empty States === */
+.loading-state,
+.error-state,
+.no-data {
+  text-align: center;
+  padding: 3rem 2rem;
+  color: #666;
+  font-size: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+.loading-state::before {
+  content: "⏳";
+  font-size: 2rem;
+  opacity: 0.7;
+}
+
+.error-state::before {
+  content: "⚠️";
+  font-size: 2rem;
+  opacity: 0.7;
+}
+
+.no-data::before {
+  content: "📭";
+  font-size: 2rem;
+  opacity: 0.7;
+}
+
+/* === Responsive Adjustments === */
+@media (max-width: 1024px) {
+  .card-table {
+    border-radius: 14px;
+    padding: 0.5rem;
+  }
+  
+  .request-table th,
+  .request-table td {
+    padding: 1rem 0.75rem;
+    font-size: 0.875rem;
+  }
+  
+  .action-column {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+  
+  .accept-btn,
+  .decline-btn {
+    min-width: 80px;
+    padding: 0.4rem 0.75rem;
+  }
+}
+
+/* Add subtle animation to table rows */
+@keyframes fadeInRow {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.request-table tbody tr {
+  animation: fadeInRow 0.3s ease-out forwards;
+  animation-delay: calc(var(--row-index, 0) * 0.05s);
+}
+
+
+.profile-btn {
+  padding: 6px 12px;
+  background: #4f46e5;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+
+/* === Enhanced Profile Modal === */
+.profile-modal-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.6);
+  backdrop-filter: blur(6px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+  padding: 20px;
+  animation: fadeIn 0.3s ease-out;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+.profile-modal {
+  background: linear-gradient(145deg, #ffffff, #fafaff);
+  width: 100%;
+  max-width: 500px;
+  border-radius: 20px;
+  box-shadow: 
+    0 25px 60px rgba(0, 0, 0, 0.2),
+    0 10px 30px rgba(108, 99, 255, 0.15);
+  overflow: hidden;
+  border: 1px solid rgba(108, 99, 255, 0.1);
+  position: relative;
+  animation: slideUp 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.1);
+}
+
+@keyframes slideUp {
+  from { 
+    opacity: 0;
+    transform: translateY(40px) scale(0.95);
+  }
+  to { 
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+/* Modal Header */
+.profile-modal-header {
+  background: linear-gradient(135deg, #6c63ff, #8a84ff);
+  padding: 1.75rem 2rem;
+  color: white;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.profile-modal-header::after {
+  content: "";
+  position: absolute;
+  bottom: -1px;
+  left: 0;
+  right: 0;
+  height: 1px;
+  background: linear-gradient(to right, transparent, rgba(255, 255, 255, 0.4), transparent);
+}
+
+.profile-modal h3 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.profile-modal h3::before {
+  content: "👤";
+  font-size: 1.3rem;
+}
+
+/* Modal Body */
+.profile-modal-content {
+  padding: 2rem;
+  max-height: 70vh;
+  overflow-y: auto;
+}
+
+/* Profile Info Sections */
+.profile-section {
+  margin-bottom: 1.75rem;
+  padding-bottom: 1.5rem;
+  border-bottom: 1px solid rgba(108, 99, 255, 0.08);
+}
+
+.profile-section:last-child {
+  border-bottom: none;
+  margin-bottom: 0;
+}
+
+.profile-section-title {
+  font-size: 0.85rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #6c63ff;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.profile-section-title::before {
+  content: "";
+  display: block;
+  width: 4px;
+  height: 16px;
+  background: linear-gradient(to bottom, #6c63ff, #8a84ff);
+  border-radius: 2px;
+}
+
+/* Info Items */
+.profile-info-item {
+  display: flex;
+  margin-bottom: 1rem;
+  align-items: flex-start;
+}
+
+.profile-info-item:last-child {
+  margin-bottom: 0;
+}
+
+.info-label {
+  min-width: 120px;
+  font-weight: 600;
+  color: #4b5563;
+  font-size: 0.9rem;
+  padding: 0.5rem 0;
+  text-transform: capitalize;
+}
+
+.info-value {
+  flex: 1;
+  color: #1f2937;
+  font-weight: 500;
+  padding: 0.5rem;
+  background: rgba(241, 245, 249, 0.5);
+  border-radius: 8px;
+  border-left: 3px solid rgba(108, 99, 255, 0.2);
+  padding-left: 1rem;
+}
+
+/* Social Links Section */
+.social-section {
+  background: rgba(108, 99, 255, 0.03);
+  border-radius: 12px;
+  padding: 1.25rem;
+  margin-top: 0.5rem;
+}
+
+.social-links-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 0.75rem;
+  margin-top: 1rem;
+}
+
+.social-link-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 0.75rem 1rem;
+  background: white;
+  border-radius: 10px;
+  border: 1px solid rgba(108, 99, 255, 0.1);
+  text-decoration: none;
+  color: #4b5563;
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+
+.social-link-item:hover {
+  transform: translateY(-2px);
+  border-color: #6c63ff;
+  background: rgba(108, 99, 255, 0.05);
+  box-shadow: 0 4px 12px rgba(108, 99, 255, 0.1);
+}
+
+.social-icon {
+  width: 32px;
+  height: 32px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  color: white;
+}
+
+.social-icon.twitter {
+  background: linear-gradient(135deg, #1DA1F2, #1a8cd8);
+}
+
+.social-icon.linkedin {
+  background: linear-gradient(135deg, #0077B5, #00669c);
+}
+
+.social-icon.facebook {
+  background: linear-gradient(135deg, #4267B2, #365899);
+}
+
+.social-icon.instagram {
+  background: linear-gradient(135deg, #E1306C, #C13584);
+}
+
+.social-icon.website {
+  background: linear-gradient(135deg, #10B981, #0da271);
+}
+
+/* Role Badge in Profile */
+.profile-role-badge {
+  display: inline-block;
+  padding: 0.4rem 1.2rem;
+  border-radius: 20px;
+  font-size: 0.8rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  margin-left: 10px;
+}
+
+.profile-role-badge.admin {
+  background: linear-gradient(135deg, rgba(108, 99, 255, 0.15), rgba(108, 99, 255, 0.08));
+  color: #6c63ff;
+  border: 1.5px solid rgba(108, 99, 255, 0.25);
+}
+
+.profile-role-badge.member {
+  background: linear-gradient(135deg, rgba(33, 150, 243, 0.15), rgba(33, 150, 243, 0.08));
+  color: #2196f3;
+  border: 1.5px solid rgba(33, 150, 243, 0.25);
+}
+
+/* Close Button */
+.close-btn {
+  background: linear-gradient(135deg, #6c63ff, #8a84ff);
+  color: white;
+  border: none;
+  padding: 0.9rem 2rem;
+  border-radius: 12px;
+  font-weight: 600;
+  font-size: 0.95rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  width: 100%;
+  margin-top: 1.5rem;
+  box-shadow: 0 4px 12px rgba(108, 99, 255, 0.25);
+  position: relative;
+  overflow: hidden;
+}
+
+.close-btn::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.2), transparent);
+  transition: left 0.5s;
+}
+
+.close-btn:hover::before {
+  left: 100%;
+}
+
+.close-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 16px rgba(108, 99, 255, 0.35);
+  background: linear-gradient(135deg, #5a52e0, #6c63ff);
+}
+
+/* Close Icon Button */
+.modal-close-btn {
+  background: rgba(255, 255, 255, 0.2);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  color: white;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  font-size: 1.2rem;
+  transition: all 0.3s ease;
+  backdrop-filter: blur(10px);
+}
+
+.modal-close-btn:hover {
+  background: rgba(255, 255, 255, 0.3);
+  transform: rotate(90deg);
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+  .profile-modal {
+    max-width: 95%;
+    border-radius: 16px;
+  }
+  
+  .profile-modal-content {
+    padding: 1.5rem;
+    max-height: 80vh;
+  }
+  
+  .profile-info-item {
+    flex-direction: column;
+    gap: 0.25rem;
+  }
+  
+  .info-label {
+    min-width: auto;
+    font-size: 0.85rem;
+  }
+  
+  .social-links-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .profile-modal-header {
+    padding: 1.25rem 1.5rem;
+  }
+  
+  .profile-modal h3 {
+    font-size: 1.25rem;
+  }
+}
+
+/* Scrollbar Styling */
+.profile-modal-content::-webkit-scrollbar {
+  width: 6px;
+}
+
+.profile-modal-content::-webkit-scrollbar-track {
+  background: rgba(108, 99, 255, 0.05);
+  border-radius: 3px;
+}
+
+.profile-modal-content::-webkit-scrollbar-thumb {
+  background: rgba(108, 99, 255, 0.2);
+  border-radius: 3px;
+}
+
+.profile-modal-content::-webkit-scrollbar-thumb:hover {
+  background: rgba(108, 99, 255, 0.4);
+}

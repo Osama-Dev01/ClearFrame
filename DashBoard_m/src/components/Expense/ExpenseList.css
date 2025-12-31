@@ -1,0 +1,401 @@
+.member-list-page {
+  margin-left: 265px; /* ✅ space from sidebar */
+  padding: 2rem;
+  background-color: #f9fafb;
+  min-height: 100vh;
+  overflow-y: auto;
+  margin-top: -35px;
+}
+
+
+
+
+.page-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 2rem;
+}
+
+.page-header h1 {
+  font-size: 1.75rem;
+  font-weight: 600;
+  color: var(--text-color);
+  border-left: 5px solid #6b5aed;
+  padding-left: 10px;
+  margin-bottom: 1rem; /* Added for spacing like .heading */
+}
+
+.btn-refresh {
+  background: var(--primary-color);
+  border: none;
+  color: white;
+  padding: 10px 14px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: var(--transition);
+}
+
+.btn-refresh:hover {
+  background-color: #5750e6;
+  transform: translateY(-2px);
+}
+.members-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 3.95rem;
+  max-width: 1100px;
+  padding-left: 25px;
+}
+
+
+
+.member-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  /* Elegant light purple theme */
+  background: linear-gradient(145deg, #f9f8ff, #f3f2ff);
+  border: 1px solid rgba(108, 99, 255, 0.12);
+  position: relative;
+  overflow: hidden;
+  border-radius: 18px; /* Slightly more rounded */
+  padding: 1.75rem; /* More padding */
+  box-shadow: 
+    0 6px 20px rgba(108, 99, 255, 0.08),
+    0 1px 3px rgba(0, 0, 0, 0.04);
+}
+
+/* Hover enhancement */
+.member-card:hover {
+  transform: translateY(-4px);
+  border-color: rgba(108, 99, 255, 0.25);
+  box-shadow: 
+    0 12px 30px rgba(108, 99, 255, 0.15),
+    0 4px 8px rgba(0, 0, 0, 0.06);
+  background: linear-gradient(145deg, #faf9ff, #f5f4ff);
+}
+
+/* Subtle purple corner accent */
+.member-card::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 80px;
+  height: 80px;
+  background: radial-gradient(
+    circle at 30% 30%,
+    rgba(108, 99, 255, 0.1) 0%,
+    transparent 70%
+  );
+  border-radius: 0 18px 0 0;
+  pointer-events: none;
+}
+
+/* Top border accent */
+.member-card::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 3px;
+  background: linear-gradient(to right, #6c63ff, #8a84ff, #6c63ff);
+  border-radius: 18px 18px 0 0;
+}
+
+.member-info h3 {
+  margin-bottom: 1rem;
+  color: var(--primary-color);
+  font-size: 1.35rem; /* Increased size */
+  font-weight: 700; /* Bolder weight */
+  letter-spacing: -0.01em;
+  text-align: center; /* Centered */
+  position: relative;
+  padding-bottom: 0.75rem;
+}
+
+/* Add decorative underline to centered name */
+.member-info h3::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 40px;
+  height: 3px;
+  background: linear-gradient(to right, #6c63ff, #8a84ff);
+  border-radius: 2px;
+}
+
+.member-info p {
+  margin-bottom: 0.75rem; /* Increased spacing */
+  color: #475569; /* Darker for better readability */
+  font-size: 0.925rem; /* Slightly larger */
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  line-height: 1.6; /* Better line height */
+  padding: 0.4rem 0.5rem;
+  border-radius: 6px;
+  transition: background-color 0.2s ease;
+}
+
+/* Subtle hover effect on info rows */
+.member-info p:hover {
+  background-color: rgba(241, 245, 249, 0.5);
+}
+
+.member-info p:first-of-type {
+  color: #334155; /* Darker color */
+  font-size: 0.95rem;
+  margin-top: 1rem;
+  margin-bottom: 1.25rem;
+  padding-bottom: 0.85rem;
+  border-bottom: 1px solid rgba(108, 99, 255, 0.15); /* Slightly darker border */
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+/* Add icon before email/phone */
+.member-info p:first-of-type::before {
+  content: "✉️";
+  font-size: 0.9rem;
+  opacity: 0.8;
+}
+
+.member-info p strong {
+  color: #1e293b; /* Much darker for better contrast */
+  font-weight: 700; /* Bolder */
+  min-width: 60px; /* Slightly wider */
+  font-size: 0.85rem; /* Slightly larger */
+  text-transform: uppercase;
+  letter-spacing: 0.8px; /* Increased letter spacing */
+  background: linear-gradient(135deg, #f8fafc, #f1f5f9);
+  padding: 0.2rem 0.6rem;
+  border-radius: 4px;
+  border: 1px solid #e2e8f0;
+}
+
+/* Improve role badges */
+.role-badge {
+  display: inline-block;
+  padding: 0.5rem 1.2rem; /* Slightly larger */
+  border-radius: 20px;
+  font-size: 0.8rem; /* Slightly larger */
+  font-weight: 700; /* Bolder */
+  letter-spacing: 0.6px; /* Increased spacing */
+  text-transform: uppercase;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05); /* Subtle shadow */
+  transition: all 0.3s ease;
+}
+
+/* Add hover effects to badges */
+.role-badge:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.role-badge.admin {
+  background: linear-gradient(135deg, rgba(108, 99, 255, 0.15), rgba(108, 99, 255, 0.08));
+  color: #6c63ff;
+  border: 1.5px solid rgba(108, 99, 255, 0.35); /* Thicker border */
+}
+
+.role-badge.member {
+  background: linear-gradient(135deg, rgba(76, 175, 80, 0.15), rgba(76, 175, 80, 0.08));
+  color: #4caf50;
+  border: 1.5px solid rgba(76, 175, 80, 0.35); /* Thicker border */
+}
+
+/* Add subtle background pattern to the info container */
+.member-info {
+  position: relative;
+  padding: 1.5rem;
+  border-radius: 12px;
+  background: linear-gradient(to bottom, white, #fcfcff);
+}
+
+/* Optional: Add subtle corner accent */
+.member-info::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 40px;
+  height: 40px;
+  background: linear-gradient(135deg, transparent 50%, rgba(108, 99, 255, 0.05) 50%);
+  border-radius: 0 12px 0 0;
+}
+
+
+
+
+
+.member-actions {
+  display: flex;
+  gap: 0.65rem;
+  margin-top: 1.25rem;
+  padding-top: 1rem;
+  border-top: 1px solid rgba(108, 99, 255, 0.06);
+}
+
+.member-actions .btn {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  padding: 0.65rem 1rem;
+  font-weight: 500;
+  font-size: 0.875rem;
+  border-radius: 12px;
+  transition: all 0.3s ease;
+  border: none;
+  cursor: pointer;
+}
+
+.member-actions .btn-primary {
+  background: var(--primary-color);
+  color: white;
+}
+
+.member-actions .btn-primary:hover {
+  background: #5750e6;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(108, 99, 255, 0.3);
+}
+
+.member-actions .btn-danger {
+  background: #fef2f2;
+  color: #dc3545;
+  border: 1px solid #fecaca;
+}
+
+.member-actions .btn-danger:hover {
+  background: #dc3545;
+  color: white;
+  border-color: #dc3545;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(220, 53, 69, 0.3);
+}
+
+
+.performance-stats {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+  margin: 1.25rem 0;
+  padding: 1rem;
+  background: linear-gradient(135deg, rgba(108, 99, 255, 0.03), rgba(108, 99, 255, 0.01));
+  border-radius: 12px;
+  border: 1px solid rgba(108, 99, 255, 0.08);
+}
+
+.stat-item {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.stat-icon {
+  font-size: 1.25rem;
+  color: var(--primary-color);
+  background: rgba(108, 99, 255, 0.08);
+  padding: 0.5rem;
+  border-radius: 10px;
+}
+
+.stat-item div {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+.stat-item strong {
+  font-size: 0.75rem;
+  color: #64748b;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.stat-value {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: var(--primary-color);
+}
+
+.stat-value.high {
+  color: #10b981; /* Green for high accuracy */
+}
+
+.stat-value.medium {
+  color: #f59e0b; /* Yellow/orange for medium accuracy */
+}
+
+.stat-value.low {
+  color: #ef4444; /* Red for low accuracy */
+}
+
+/* Enhanced member info styling */
+.member-info > p:not(:first-of-type) {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 0.5rem;
+}
+
+.member-info > p strong {
+  min-width: 70px;
+  font-size: 0.8rem;
+}
+
+/* Loading and error states */
+.loading-card, .error-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 3rem;
+  text-align: center;
+  background: white;
+  border-radius: 16px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+}
+
+.loading-spinner {
+  width: 50px;
+  height: 50px;
+  border: 3px solid rgba(108, 99, 255, 0.1);
+  border-top: 3px solid var(--primary-color);
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+  margin-bottom: 1rem;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+.error-message {
+  color: #ef4444;
+  margin-bottom: 1.5rem;
+  font-size: 1rem;
+}
+
+.no-members {
+  text-align: center;
+  padding: 3rem;
+  background: white;
+  border-radius: 16px;
+  color: #64748b;
+  font-size: 1.1rem;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+}

@@ -1,0 +1,93 @@
+/* --- Professional Light Blue Navbar Theme --- */
+/*
+  New Color Palette:
+  --navbar-bg: #4A90E2; (A vibrant but professional light-to-medium blue)
+  --navbar-border: #3A7BC8; (A slightly darker shade for a subtle border)
+  --text-light: #F0F4F8; (A very light, off-white for high contrast)
+  --text-logo: #FFFFFF;
+  --accent-highlight: #FFFFFF; (Making the dot white for a clean, modern look)
+*/
+
+.navbar {
+  /* Themed light blue background */
+  background-color: #99c5f7;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  padding: 0 2.5rem; /* Increased padding for a more spacious feel */
+  border-bottom: 1px solid #3A7BC8;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  /* A softer shadow for a lighter element */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-container {
+  width: 100%;
+  max-width: 1800px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between; /* Pushes left and right sections to the edges */
+  align-items: center;
+}
+
+/* --- Left Section (Logo) --- */
+.navbar-left {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  text-decoration: none;
+  font-size: 1.7rem;
+  font-weight: 700;
+  color: var(--text-logo); /* Bright white for the logo text */
+  transition: opacity 0.2s ease;
+}
+
+.logo:hover {
+  opacity: 0.9;
+}
+
+.logo-image {
+  height: 40px;
+  width: auto;
+  /* IMPORTANT: This filter is for turning a dark SVG white. We still need it. */
+  filter: brightness(0) invert(1); 
+}
+
+.logo span {
+  color: var(--accent-highlight); /* The white dot */
+}
+
+/* --- Right Section (Title & Profile) --- */
+.navbar-right {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.navbar-title {
+  font-size: 1.25rem;
+  font-weight: 600; /* Bold */
+  color: var(--text-light); /* Off-white for high contrast */
+  letter-spacing: 0.5px;
+}
+
+.navbar-profile {
+  /* A semi-transparent white circle looks great on this blue */
+  width: 42px;
+  height: 42px;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.navbar-profile:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+}

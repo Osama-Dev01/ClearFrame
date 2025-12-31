@@ -1,0 +1,7 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  overflow-y: auto; /* enables scrolling vertically */
+  overflow-x: hidden; /* hides horizontal scroll */
+  scroll-behavior: smooth; /* optional, smooth scrolling */
+}
